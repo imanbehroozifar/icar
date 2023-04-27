@@ -5,8 +5,8 @@ import SearchBar from "@/Components/module/SearchBar";
 const Details = () => {
     return (
         <div>
-            <SearchBar/>
-            <Categories/>
+            <SearchBar />
+            <Categories />
             <CarsPage data={carsData} />
         </div>
     );
